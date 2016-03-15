@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Window calculator</title>
+        <meta charset="UTF-8">
+		<script src="components.js"></script>
+		<script src="window_calc.js"></script>
+		<style>
+		#price{color: green; font-size: 24px;}
+		</style>
+	</head>
+    <body>
+	
+		<div>
+			<p>Select profile:</p>
+				<select id="profile" name="profile"> 
+					<option value="0"></option>
+				</select>
+			<p>Стеклопакет:</p>
+			<div id="packets"></div>
+			<p>Размеры</p>
+			<input type="text" name="width" id="width">
+			X
+			<input type="text" name="height" id="height"><br>
+			<input type="checkbox" name="option" id="option" > Форточка
+		</div>
+		<div id="price">0 грн.</div>
+    </body>
+</html>
